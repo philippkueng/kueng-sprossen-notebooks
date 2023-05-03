@@ -1,0 +1,13 @@
+{:deps {io.github.nextjournal/clerk {:mvn/version "0.9.513"}
+        cheshire/cheshire {:mvn/version "5.11.0"}
+        tick/tick {:mvn/version "0.6.2"}
+        com.rpl/specter {:mvn/version "1.1.4"}}
+ :aliases
+ {:nextjournal/clerk
+  {:exec-fn nextjournal.clerk/build!
+   :exec-args {:paths ["notebooks/ttn-temperature-and-humidity.clj"]}
+   ;; TODO: add all notebooks you want to have built ☝️
+   ;; if you just want to build one notebook, set `:index`
+
+   ;; optional list of aliases to include in t
+   }}}

@@ -1,0 +1,6 @@
+.clerk/
+.cpcache/
+.clj-kondo/
+.DS_Store
+.nrepl-port
+dataset/*.json
