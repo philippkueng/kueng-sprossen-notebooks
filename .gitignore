@@ -5,3 +5,6 @@
 .nrepl-port
 dataset/*.json
 .#**
+.idea/
+*.iml
+public/build/**
