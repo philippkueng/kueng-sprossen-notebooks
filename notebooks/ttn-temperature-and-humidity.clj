@@ -1,3 +1,9 @@
+;; this is a hack that we currently need for clerk to play nice with specter
+^{:nextjournal.clerk/error-on-missing-vars :off}
+{}
+
+;; ---
+
 ;; # Looking at the temperature and humidity data collected via the TTN
 
 ;; ^{::clerk/visibility :fold}
