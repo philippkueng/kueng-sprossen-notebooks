@@ -4,3 +4,4 @@
 .DS_Store
 .nrepl-port
 dataset/*.json
+.#**
