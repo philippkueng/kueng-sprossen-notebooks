@@ -358,11 +358,11 @@
 
 ;; - [x] looking at rolling averages of max temperatures in a given month https://vega.github.io/vega-lite/examples/layer_line_rolling_mean_point_raw.html
 ;; - [ ] when do we have the biggest difference between min-temp and max-temp?
-;; - [ ] check if the rssi and snr changes depending on the month or time of day
 ;; - [x] around what time of day do we usually reach the max temperature?
 ;; - [ ] boxplot of temperatures per month
 ;; - [ ] show the time range for a given day between the lowest and highest temperature and the average one
 ;; - [x] over all the days, how does the temperature usually rise and fall?
-
+;; - [ ] what are the temperature distributions for sensor-3 per month? Is there a clear difference between eg. January and July?
+;; - [ ] fetch and visualize the outside temperature for the last year and overlay it with the temperatures measures in the room.
 
 
